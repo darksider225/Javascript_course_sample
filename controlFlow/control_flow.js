@@ -56,3 +56,20 @@ switch(userType)
     let isAuthenticated = true;
     let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
     console.log("Authentication Status: ", authenticationStatus);
+
+
+//Dietary Services Access
+
+let userAccess = "Employee";  // Try changing this to Employee, Subscriber, etc.
+let accessType;
+
+if (userAccess === "Employee") {
+  accessType = "Access granted to Dietary Services.";
+} else if (userAccess === "Enrolled Member") {
+  accessType = "Access granted to Dietary Services and one-on-one interaction with a dietician.";
+} else if (userAccess === "Subscriber") {
+  accessType = "Partial access granted to Dietary Services.";
+} else {
+  accessType = "Access denied. Please enroll or subscribe to avail the facility.";
+}
+console.log(accessType);
