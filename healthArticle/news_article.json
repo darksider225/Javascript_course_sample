@@ -1,0 +1,24 @@
+{
+"articles": [
+  {
+    "title": "Daily Walking Boosts Heart Health",
+    "description": "Research shows that a 30-minute walk daily can significantly lower the risk of heart disease.",
+    "paragraph": "A new study from the University of Sydney reveals that individuals who walk briskly for at least 30 minutes a day experience improved cardiovascular function and reduced cholesterol levels. Doctors emphasize the importance of consistent movement for long-term heart health."
+  },
+  {
+    "title": "Meditation Linked to Stress Reduction",
+    "description": "Mindfulness practices like meditation are gaining popularity for their mental health benefits.",
+    "paragraph": "Experts at Harvard Medical School found that individuals who engage in 10 minutes of guided meditation daily report lower stress levels and improved mood. Mental wellness advocates encourage integrating mindfulness into daily routines, especially for people in high-pressure environments."
+  },
+  {
+    "title": "Eating Nuts May Improve Brain Function",
+    "description": "Adding almonds and walnuts to your diet may enhance memory and concentration.",
+    "paragraph": "Clinical trials conducted in Spain suggest that individuals who consume a handful of mixed nuts each day perform better on cognitive tasks compared to those on a nut-free diet. The omega-3s and antioxidants present in nuts are believed to support neuron health and brain longevity."
+  },
+  {
+    "title": "Hydration Key to Better Sleep Quality",
+    "description": "Drinking enough water throughout the day can impact your sleep patterns positively.",
+    "paragraph": "According to sleep researchers in Tokyo, maintaining proper hydration levels helps regulate body temperature, hormone production, and cell regeneration—all essential for quality sleep. They recommend consuming fluids consistently throughout the day rather than loading up before bedtime."
+  }
+]
+}
