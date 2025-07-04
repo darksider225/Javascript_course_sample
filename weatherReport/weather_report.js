@@ -6,6 +6,12 @@ function showweatherDetails(event)
     const city = document.getElementById("city").value;
     const apiKey = "YOUR_API_KEY"; //OpenWeather API key
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    
+    /* for Weather by lattitude and longitude 
+    const lat = document.getElementById("lattitude").value;
+    const lon = document.getElementById("longitude").value;
+    const apiKey = "YOUR_API_KEY"; //OpenWeather API key
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`; */
 
     fetch(apiUrl)
         .then(response => response.json())
